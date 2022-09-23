@@ -8,7 +8,7 @@ This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeL
 
 SublimeLinter must be installed in order to use this plugin.  Install via [Package Control](https://packagecontrol.io) or `git clone` as usual.
 
-Ensure that a `quick-lint-js` is actually installed somewhere on your system. For example,
+Ensure that `quick-lint-js` is actually installed somewhere on your system. For example,
 
 ```
 $ winget install quick-lint-js
