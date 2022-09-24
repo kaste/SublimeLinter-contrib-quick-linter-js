@@ -24,7 +24,7 @@ After installing make sure you can actually run it. E.g.
     $ quick-lint-js --version
 
 
-You don't have to install it globally though, as always put the executable wherever you want and point SublimeLinter to it.  For example, in the global settings:
+You don't have to install it globally though, as always put the executable wherever you want and point SublimeLinter to it.  For example, in the global settings[1]:
 
 
     "linters": {
@@ -32,3 +32,15 @@ You don't have to install it globally though, as always put the executable where
             "executable": "C:\\Users\\honkytonk\\Downloads\\quick-lint-js\\bin\\quick-lint-js.exe"
         },
         ...
+
+
+Since `quick-lint-js` is very fast and doesn't use much CPU a lower debounce
+time works great for it.  This is also in the global settings[1]:
+
+
+    {
+       "delay": 0.0,
+       ...
+
+
+[1] Open the settings with the Command Palette (`ctrl+shift+P`) searching for `Preferences: SublimeLinter Settings` (mnemonic: `sls`).
